@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Waiting for Zeno"
+  description: "A math blog"
+  navbar:
+    right:
+      - about.qmd
+      - icon: rss
+        href: index.xml
+
+format:
+  html:
+    theme: morph
+    css: styles.css
+
+editor: source
+
+comments:
+  giscus:
+    repo: MaraAlexeev/waiting_for_zeno
