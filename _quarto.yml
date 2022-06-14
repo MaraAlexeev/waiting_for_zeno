@@ -5,6 +5,7 @@ project:
 website:
   title: "Waiting for Zeno"
   description: "A math blog"
+  site-url: https://maraalexeev.github.io/waiting_for_zeno/
   navbar:
     right:
       - about.qmd
